@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+button {
+    width: 25%;
+    margin: auto;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}

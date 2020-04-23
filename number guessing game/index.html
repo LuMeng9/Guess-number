@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title>Number guessing game</title>
+
+    <link rel='stylesheet' href="style.css"></link>
+</head>
+
+<body>
+    <div id="content" class="card card-body text-center" style="margin-top: 5%;">
+        <h1 class="font-weight-bold">Number guessing game</h1>
+
+        <p class="text-primary">We have selected a random number between 1 and 50. See if you can guess it in 5 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+
+        <div class="form-group">
+            <label for="guessField">Enter your guess: </label>
+            <input type="text" id="guessField" class="input guessField">
+            <input type="submit" value="Submit guess" class="btn btn-success guessSubmit">
+        </div>
+
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
